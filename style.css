@@ -4,13 +4,9 @@
 }
 
 .title{
-  background-color: #EE6C4D;
-  border: 4px solid black;
-  border-radius: 1rem;
   font-weight: 900;
-  box-shadow: 0 0 1rem black;
   margin: 20px 0px 40px 0px;
-  font-size: 40px;
+  font-size: 12vmin;
   font-family: Arial, Helvetica, sans-serif;
   color: #E0FBFC;
 }
@@ -43,7 +39,7 @@ body{
   width: 18vmin;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0 0 1rem black;
+  /* box-shadow: 0 0 1rem black; */
   font-size: 13vmin;
   background-color: #EE6C4D;
   color: #293241;
@@ -52,10 +48,32 @@ body{
 /* reset button */
 
 #reset-game{
-  padding: 1rem;
-  font-size: 1.25rem;
+  margin-left: 2vmin;
+  padding: 3vmin;
+  font-size: 5vmin;
   background-color: #3D5A80;
   border: none;
   border-radius: 1rem;
   box-shadow: 3px 3px 1rem black;
+
+}
+#new-game{
+  margin-left: 2vmin;
+  padding: 3vmin;
+  font-size: 5vmin;
+  background-color: #3D5A80;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 1rem black;
+
+}
+.mess{
+ margin-top: 10vmin;
+}
+#msg{
+  color: #E0FBFC;
+  font-size: 8vmin;
+}
+.hide{
+  display: none;
 }
