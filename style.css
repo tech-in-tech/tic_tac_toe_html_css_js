@@ -36,12 +36,15 @@ body{
 }
 
 .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height:18vmin;
   width: 18vmin;
   border-radius: 1rem;
   border: none;
   box-shadow: 0 0 1rem black;
-  font-size: 8vmin;
+  font-size: 13vmin;
   background-color: #EE6C4D;
   color: #293241;
 }
